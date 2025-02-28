@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2064C8372D71F19C00774DEE /* readme.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 2064C8362D71F19C00774DEE /* readme.markdown */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		2064C81A2D71F0F300774DEE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2064C8082D71F0F200774DEE /* PositionCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PositionCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2064C8192D71F0F300774DEE /* PositionCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PositionCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2064C8232D71F0F300774DEE /* PositionCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PositionCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2064C8362D71F19C00774DEE /* readme.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.markdown; sourceTree = "<group>"; };
+		2064C83A2D71F36A00774DEE /* PositionCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = PositionCalculator.app; path = /Users/bandili/Desktop/DApp/PositionCalculator/build/Debug/PositionCalculator.app; sourceTree = "<absolute>"; };
+		2064C83B2D71F36A00774DEE /* PositionCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PositionCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2064C83C2D71F36A00774DEE /* PositionCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PositionCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -78,18 +83,10 @@
 				2064C80A2D71F0F200774DEE /* PositionCalculator */,
 				2064C81C2D71F0F300774DEE /* PositionCalculatorTests */,
 				2064C8262D71F0F300774DEE /* PositionCalculatorUITests */,
-				2064C8092D71F0F200774DEE /* Products */,
+				2064C8362D71F19C00774DEE /* readme.markdown */,
+				2064C83B2D71F36A00774DEE /* PositionCalculatorTests.xctest */,
+				2064C83C2D71F36A00774DEE /* PositionCalculatorUITests.xctest */,
 			);
-			sourceTree = "<group>";
-		};
-		2064C8092D71F0F200774DEE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2064C8082D71F0F200774DEE /* PositionCalculator.app */,
-				2064C8192D71F0F300774DEE /* PositionCalculatorTests.xctest */,
-				2064C8232D71F0F300774DEE /* PositionCalculatorUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -114,7 +111,7 @@
 			packageProductDependencies = (
 			);
 			productName = PositionCalculator;
-			productReference = 2064C8082D71F0F200774DEE /* PositionCalculator.app */;
+			productReference = 2064C83A2D71F36A00774DEE /* PositionCalculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2064C8182D71F0F300774DEE /* PositionCalculatorTests */ = {
@@ -137,7 +134,7 @@
 			packageProductDependencies = (
 			);
 			productName = PositionCalculatorTests;
-			productReference = 2064C8192D71F0F300774DEE /* PositionCalculatorTests.xctest */;
+			productReference = 2064C83B2D71F36A00774DEE /* PositionCalculatorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		2064C8222D71F0F300774DEE /* PositionCalculatorUITests */ = {
@@ -160,7 +157,7 @@
 			packageProductDependencies = (
 			);
 			productName = PositionCalculatorUITests;
-			productReference = 2064C8232D71F0F300774DEE /* PositionCalculatorUITests.xctest */;
+			productReference = 2064C83C2D71F36A00774DEE /* PositionCalculatorUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -196,7 +193,7 @@
 			mainGroup = 2064C7FF2D71F0F200774DEE;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 2064C8092D71F0F200774DEE /* Products */;
+			productRefGroup = 2064C7FF2D71F0F200774DEE;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -212,6 +209,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2064C8372D71F19C00774DEE /* readme.markdown in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +319,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -378,6 +377,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
