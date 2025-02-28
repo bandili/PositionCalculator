@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		2064C81A2D71F0F300774DEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2064C8002D71F0F200774DEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2064C8072D71F0F200774DEE;
+			remoteInfo = PositionCalculator;
+		};
+		2064C8242D71F0F300774DEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2064C8002D71F0F200774DEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2064C8072D71F0F200774DEE;
+			remoteInfo = PositionCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2064C8082D71F0F200774DEE /* PositionCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PositionCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2064C8192D71F0F300774DEE /* PositionCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PositionCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2064C8232D71F0F300774DEE /* PositionCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PositionCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2064C80A2D71F0F200774DEE /* PositionCalculator */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PositionCalculator;
+			sourceTree = "<group>";
+		};
+		2064C81C2D71F0F300774DEE /* PositionCalculatorTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PositionCalculatorTests;
+			sourceTree = "<group>";
+		};
+		2064C8262D71F0F300774DEE /* PositionCalculatorUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PositionCalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2064C8052D71F0F200774DEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2064C8162D71F0F300774DEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2064C8202D71F0F300774DEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2064C7FF2D71F0F200774DEE = {
+			isa = PBXGroup;
+			children = (
+				2064C80A2D71F0F200774DEE /* PositionCalculator */,
+				2064C81C2D71F0F300774DEE /* PositionCalculatorTests */,
+				2064C8262D71F0F300774DEE /* PositionCalculatorUITests */,
+				2064C8092D71F0F200774DEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2064C8092D71F0F200774DEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2064C8082D71F0F200774DEE /* PositionCalculator.app */,
+				2064C8192D71F0F300774DEE /* PositionCalculatorTests.xctest */,
+				2064C8232D71F0F300774DEE /* PositionCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2064C8072D71F0F200774DEE /* PositionCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2064C82D2D71F0F300774DEE /* Build configuration list for PBXNativeTarget "PositionCalculator" */;
+			buildPhases = (
+				2064C8042D71F0F200774DEE /* Sources */,
+				2064C8052D71F0F200774DEE /* Frameworks */,
+				2064C8062D71F0F200774DEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2064C80A2D71F0F200774DEE /* PositionCalculator */,
+			);
+			name = PositionCalculator;
+			packageProductDependencies = (
+			);
+			productName = PositionCalculator;
+			productReference = 2064C8082D71F0F200774DEE /* PositionCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2064C8182D71F0F300774DEE /* PositionCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2064C8302D71F0F300774DEE /* Build configuration list for PBXNativeTarget "PositionCalculatorTests" */;
+			buildPhases = (
+				2064C8152D71F0F300774DEE /* Sources */,
+				2064C8162D71F0F300774DEE /* Frameworks */,
+				2064C8172D71F0F300774DEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2064C81B2D71F0F300774DEE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2064C81C2D71F0F300774DEE /* PositionCalculatorTests */,
+			);
+			name = PositionCalculatorTests;
+			packageProductDependencies = (
+			);
+			productName = PositionCalculatorTests;
+			productReference = 2064C8192D71F0F300774DEE /* PositionCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2064C8222D71F0F300774DEE /* PositionCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2064C8332D71F0F300774DEE /* Build configuration list for PBXNativeTarget "PositionCalculatorUITests" */;
+			buildPhases = (
+				2064C81F2D71F0F300774DEE /* Sources */,
+				2064C8202D71F0F300774DEE /* Frameworks */,
+				2064C8212D71F0F300774DEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2064C8252D71F0F300774DEE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2064C8262D71F0F300774DEE /* PositionCalculatorUITests */,
+			);
+			name = PositionCalculatorUITests;
+			packageProductDependencies = (
+			);
+			productName = PositionCalculatorUITests;
+			productReference = 2064C8232D71F0F300774DEE /* PositionCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2064C8002D71F0F200774DEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					2064C8072D71F0F200774DEE = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					2064C8182D71F0F300774DEE = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 2064C8072D71F0F200774DEE;
+					};
+					2064C8222D71F0F300774DEE = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 2064C8072D71F0F200774DEE;
+					};
+				};
+			};
+			buildConfigurationList = 2064C8032D71F0F200774DEE /* Build configuration list for PBXProject "PositionCalculator" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2064C7FF2D71F0F200774DEE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2064C8092D71F0F200774DEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2064C8072D71F0F200774DEE /* PositionCalculator */,
+				2064C8182D71F0F300774DEE /* PositionCalculatorTests */,
+				2064C8222D71F0F300774DEE /* PositionCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2064C8062D71F0F200774DEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2064C8172D71F0F300774DEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2064C8212D71F0F300774DEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2064C8042D71F0F200774DEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2064C8152D71F0F300774DEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2064C81F2D71F0F300774DEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2064C81B2D71F0F300774DEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2064C8072D71F0F200774DEE /* PositionCalculator */;
+			targetProxy = 2064C81A2D71F0F300774DEE /* PBXContainerItemProxy */;
+		};
+		2064C8252D71F0F300774DEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2064C8072D71F0F200774DEE /* PositionCalculator */;
+			targetProxy = 2064C8242D71F0F300774DEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2064C82B2D71F0F300774DEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2064C82C2D71F0F300774DEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		2064C82E2D71F0F300774DEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PositionCalculator/PositionCalculator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PositionCalculator/Preview Content\"";
+				DEVELOPMENT_TEAM = 77DTYMJWL5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lsq.PositionCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2064C82F2D71F0F300774DEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PositionCalculator/PositionCalculator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PositionCalculator/Preview Content\"";
+				DEVELOPMENT_TEAM = 77DTYMJWL5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lsq.PositionCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2064C8312D71F0F300774DEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 77DTYMJWL5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lsq.PositionCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PositionCalculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PositionCalculator";
+			};
+			name = Debug;
+		};
+		2064C8322D71F0F300774DEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 77DTYMJWL5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lsq.PositionCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PositionCalculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PositionCalculator";
+			};
+			name = Release;
+		};
+		2064C8342D71F0F300774DEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 77DTYMJWL5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lsq.PositionCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PositionCalculator;
+			};
+			name = Debug;
+		};
+		2064C8352D71F0F300774DEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 77DTYMJWL5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lsq.PositionCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PositionCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2064C8032D71F0F200774DEE /* Build configuration list for PBXProject "PositionCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2064C82B2D71F0F300774DEE /* Debug */,
+				2064C82C2D71F0F300774DEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2064C82D2D71F0F300774DEE /* Build configuration list for PBXNativeTarget "PositionCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2064C82E2D71F0F300774DEE /* Debug */,
+				2064C82F2D71F0F300774DEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2064C8302D71F0F300774DEE /* Build configuration list for PBXNativeTarget "PositionCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2064C8312D71F0F300774DEE /* Debug */,
+				2064C8322D71F0F300774DEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2064C8332D71F0F300774DEE /* Build configuration list for PBXNativeTarget "PositionCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2064C8342D71F0F300774DEE /* Debug */,
+				2064C8352D71F0F300774DEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2064C8002D71F0F200774DEE /* Project object */;
+}
