@@ -56,6 +56,22 @@ struct PositionData: Codable, Equatable {
     let fee: Double
 }
 
+// MARK: - HeaderView
+
+struct HeaderView: View {
+    var body: some View {
+        HStack {
+            Image(systemName: "dollarsign.circle.fill")
+                .font(.system(size: 32))
+                .foregroundColor(.blue)
+            
+            Text("仓位计算器")
+                .font(.title3.bold())
+        }
+    }
+}
+
+
 // MARK: - 主视图
 
 struct CalculatorView: View {
@@ -119,21 +135,6 @@ struct CalculatorView: View {
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
                 focusedField = .entryPrice
             }
-        }
-    }
-}
-
-// MARK: - HeaderView 添加设置按钮
-
-struct HeaderView: View {
-    var body: some View {
-        HStack {
-            Image(systemName: "dollarsign.circle.fill")
-                .font(.system(size: 32))
-                .foregroundColor(.blue)
-            
-            Text("仓位计算器")
-                .font(.title3.bold())
         }
     }
 }

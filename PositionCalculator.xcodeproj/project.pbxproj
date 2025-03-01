@@ -28,8 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		200BC1382D72035000F14E8A /* 仓位计算器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "仓位计算器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2064C8362D71F19C00774DEE /* readme.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.markdown; sourceTree = "<group>"; };
-		2064C83A2D71F36A00774DEE /* PositionCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = PositionCalculator.app; path = /Users/bandili/Desktop/DApp/PositionCalculator/build/Debug/PositionCalculator.app; sourceTree = "<absolute>"; };
 		2064C83B2D71F36A00774DEE /* PositionCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PositionCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2064C83C2D71F36A00774DEE /* PositionCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PositionCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -86,6 +86,7 @@
 				2064C8362D71F19C00774DEE /* readme.markdown */,
 				2064C83B2D71F36A00774DEE /* PositionCalculatorTests.xctest */,
 				2064C83C2D71F36A00774DEE /* PositionCalculatorUITests.xctest */,
+				200BC1382D72035000F14E8A /* 仓位计算器.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,7 +112,7 @@
 			packageProductDependencies = (
 			);
 			productName = PositionCalculator;
-			productReference = 2064C83A2D71F36A00774DEE /* PositionCalculator.app */;
+			productReference = 200BC1382D72035000F14E8A /* 仓位计算器.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2064C8182D71F0F300774DEE /* PositionCalculatorTests */ = {
@@ -408,7 +409,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lsq.PositionCalculator;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "仓位计算器";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -435,7 +436,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lsq.PositionCalculator;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "仓位计算器";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};

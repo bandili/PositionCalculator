@@ -16,7 +16,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2064C8072D71F0F200774DEE"
-               BuildableName = "PositionCalculator.app"
+               BuildableName = "&#x4ed3;&#x4f4d;&#x8ba1;&#x7b97;&#x5668;.app"
                BlueprintName = "PositionCalculator"
                ReferencedContainer = "container:PositionCalculator.xcodeproj">
             </BuildableReference>
@@ -69,7 +69,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2064C8072D71F0F200774DEE"
-            BuildableName = "PositionCalculator.app"
+            BuildableName = "&#x4ed3;&#x4f4d;&#x8ba1;&#x7b97;&#x5668;.app"
             BlueprintName = "PositionCalculator"
             ReferencedContainer = "container:PositionCalculator.xcodeproj">
          </BuildableReference>
@@ -86,7 +86,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2064C8072D71F0F200774DEE"
-            BuildableName = "PositionCalculator.app"
+            BuildableName = "&#x4ed3;&#x4f4d;&#x8ba1;&#x7b97;&#x5668;.app"
             BlueprintName = "PositionCalculator"
             ReferencedContainer = "container:PositionCalculator.xcodeproj">
          </BuildableReference>
