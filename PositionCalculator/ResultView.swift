@@ -17,8 +17,7 @@ struct ResultView: View {
     var body: some View {
         VStack(spacing: 12) {
             HStack {
-                Text("投资金额:")
-                    .font(.subheadline)
+                Text("建议开仓金额")
                 Spacer()
                 HStack(spacing: 8) {
                     Text("\(result.investmentAmount, specifier: "%.2f")")
@@ -33,7 +32,7 @@ struct ResultView: View {
             }
                     
             VStack(alignment: .leading, spacing: 6) {
-                ResultRow(title: "1倍止盈", value: result.takeProfitPrice)
+                ResultRow(title: "一倍止盈价", value: result.takeProfitPrice)
                 ResultRow(title: "手续费金额", value: result.investmentAmount * result.fee)
             }
         }

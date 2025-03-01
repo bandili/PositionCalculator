@@ -6,10 +6,6 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		2064C8372D71F19C00774DEE /* readme.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 2064C8362D71F19C00774DEE /* readme.markdown */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		2064C81A2D71F0F300774DEE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -29,7 +25,6 @@
 
 /* Begin PBXFileReference section */
 		200BC1382D72035000F14E8A /* 仓位计算器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "仓位计算器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2064C8362D71F19C00774DEE /* readme.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.markdown; sourceTree = "<group>"; };
 		2064C83B2D71F36A00774DEE /* PositionCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PositionCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2064C83C2D71F36A00774DEE /* PositionCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PositionCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -83,7 +78,6 @@
 				2064C80A2D71F0F200774DEE /* PositionCalculator */,
 				2064C81C2D71F0F300774DEE /* PositionCalculatorTests */,
 				2064C8262D71F0F300774DEE /* PositionCalculatorUITests */,
-				2064C8362D71F19C00774DEE /* readme.markdown */,
 				2064C83B2D71F36A00774DEE /* PositionCalculatorTests.xctest */,
 				2064C83C2D71F36A00774DEE /* PositionCalculatorUITests.xctest */,
 				200BC1382D72035000F14E8A /* 仓位计算器.app */,
@@ -210,7 +204,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2064C8372D71F19C00774DEE /* readme.markdown in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

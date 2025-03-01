@@ -93,7 +93,6 @@ struct CalculatorView: View {
                 // 开仓价格
                 HStack {
                     Text("开仓价格")
-                        .font(.subheadline)
                     Spacer()
                     TextField("", text: $vm.entryPrice)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
@@ -106,7 +105,6 @@ struct CalculatorView: View {
                 // 止损价格
                 HStack {
                     Text("止损价格")
-                        .font(.subheadline)
                     Spacer()
                     TextField("", text: $vm.stopLossPrice)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
