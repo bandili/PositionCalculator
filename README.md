@@ -19,7 +19,7 @@
 
 ## 安装方法
 
-1. 下载最新的安装包 (.dmg 文件)
+1. 下载最新的安装包 (.dmg 文件) [下载软件](https://github.com/bandili/PositionCalculator/releases/download/V2/PositionCalculatorV2.dmg)
 2. 打开下载的 .dmg 文件
 3. 将应用程序拖拽到"应用程序"文件夹
 4. 首次运行时，从"应用程序"文件夹中右键点击应用程序，选择"打开"
